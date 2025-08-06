@@ -1,0 +1,95 @@
+/* Post container */
+.post {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Post header */
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.post-header h4 {
+  margin-left: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Avatar */
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Post content */
+.post p {
+  font-size: 1rem;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+/* Like and comment buttons */
+.post-actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.post-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #0a66c2;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.post-actions button:hover {
+  color: #004182;
+}
+
+/* Comments list */
+.comments {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+/* Add comment form */
+form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+form input[name="comment"] {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+form button[type="submit"] {
+  padding: 8px 14px;
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #004182;
+}
